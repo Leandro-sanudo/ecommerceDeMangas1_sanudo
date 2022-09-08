@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav } from './Nav';
 import logo from '../assets/Logo1.jpg';
+import CartWidget from './CartWidget';
 
 const Navbar = ({ nombre, id, children}) => {
 
@@ -16,6 +17,7 @@ const Navbar = ({ nombre, id, children}) => {
             <img style={styles.imagen} src={logo} alt="logo" />
             <h1> Bienvenido a Dragon's Shop</h1>
             <Nav items={items}/>
+            <CartWidget />
         </header>
     )
 }
