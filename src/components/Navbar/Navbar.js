@@ -1,7 +1,7 @@
 import React from 'react';
-import { Nav } from './Nav';
+import { Nav } from './Nav/Nav';
+import CartWidget from '../CartWidget';
 import logo from '../assets/Logo1.jpg';
-import CartWidget from './CartWidget';
 
 const Navbar = ({ nombre, id, children}) => {
 
