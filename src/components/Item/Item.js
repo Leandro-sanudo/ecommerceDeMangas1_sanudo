@@ -1,12 +1,11 @@
-import { products } from "../assets/Products"
+import React from "react"
 
 const Item = ({ title }) => {
-    console.log(title)
     return(
         <div style={stylez}>
-            <h2>{products.title}</h2>
-            <img src={products.pictureUrl} alt={products.title}/>
-            <h3>${products.price}</h3>
+            <h2>{title.title}</h2>
+            <img src={title.pictureUrl} alt={title.title}/>
+            <h3>${title.price}</h3>
         </div>
         
     )

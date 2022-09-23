@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { CustomPromise } from "../../Utilities/CustomPromise";
-import { products } from "../assets/Products";
+import { products } from "../assets/Productos";
 import { ItemList } from "../ItemList/ItemList";
 
 

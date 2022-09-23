@@ -1,8 +1,9 @@
 import Navbar from "./components/Navbar/Navbar";
 import './App.css';
 import React from 'react';
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import ItemCount from "./components/itemCount/ItemCount";
+//import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+//import ItemCount from "./components/itemCount/ItemCount";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 
 function App () {
 
@@ -11,8 +12,7 @@ function App () {
   return (
     <>
       <Navbar />
-      <ItemListContainer greeting={dash}/>
-      <ItemCount />
+      <ItemDetailContainer />
     </>
   );
 }
