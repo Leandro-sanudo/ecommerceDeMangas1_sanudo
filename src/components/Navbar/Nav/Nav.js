@@ -1,10 +1,11 @@
 import React from "react"
+import { Link, NavLink} from "react-router-dom"
 
 export const Nav = ({ items }) => {
     return (
     <nav>
         {items.map((item) => {
-            return <a key={item.id} style={styles.links} href=''>{item.nombre}</a>
+            return <NavLink key={item.id} style={styles.links} to={item.ruta}>{item.nombre}</NavLink>
         })}
     </nav>
     )

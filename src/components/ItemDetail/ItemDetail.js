@@ -3,7 +3,7 @@ import React from 'react';
 export const ItemDetail = ({ title }) => {
     console.log(title)
     return(
-        <div style={stylez.cards}>
+        <div style={stylez.cards} key={title.title}>
             <h2>{title.title}</h2>
             <img src={title.pictureUrl} alt={title.title}/>
             <h3>${title.price}</h3>
